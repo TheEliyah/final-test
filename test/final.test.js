@@ -82,3 +82,4 @@ describe('DemoQA test', function() {
 
         expect(await driver.findElement(By.css('h2')).getText()).to.contain('Welcome back,Ilija');
     });
+});
